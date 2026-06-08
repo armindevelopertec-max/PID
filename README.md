@@ -18,7 +18,7 @@ Antes de cargar el código, debes configurar tu red:
 
 ### 2. Carga al ESP32 (Arduino IDE)
 1. Conecta tu ESP32 a la computadora mediante USB.
-2. En el Arduino IDE, selecciona tu placa (ej: `DOIT ESP32 DEVKIT V1`).
+2. En el Arduino IDE, selecciona tu placa .
 3. Selecciona el puerto COM correcto.
 4. Haz clic en **Subir (Upload)**.
 
