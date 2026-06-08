@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+.env
+bin/
+lib/
+lib64/
+include/
+share/
+*.egg-info/
+*.egg
+
+# Arduino build artifacts
+build/
+arduino_debug.log
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*~

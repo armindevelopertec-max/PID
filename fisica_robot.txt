@@ -1,0 +1,34 @@
+VALORES FÍSICOS Y CINEMÁTICOS DEL ROBOT (PID)
+==============================================
+
+DIMENSIONES Y MECÁNICA:
+-----------------------
+PULSES_PER_REV  : 5600   (Pulsos por revolución del encoder)
+WHEEL_DIAMETER  : 0.045  (Diámetro de la rueda en metros: 4.5 cm)
+WHEEL_BASE      : 0.135  (Distancia entre ruedas en metros: 13.5 cm)
+
+LÍMITES DE MOVIMIENTO:
+----------------------
+MAX_RPM         : 180.0  (Velocidad máxima de los motores)
+MAX_ACCEL       : 200.0  (Aceleración máxima permitida en RPM/s)
+PWM_DEADBAND    : 235    (Valor mínimo de PWM para vencer la fricción)
+
+PARÁMETROS DE CONTROL (PID):
+----------------------------
+Kp              : 3.8    (Ganancia Proporcional)
+Ki              : 2.5    (Ganancia Integral)
+Kd              : 0.15   (Ganancia Derivativa)
+K_SYNC          : 0.05   (Factor de sincronización entre ruedas)
+
+FILTRADO Y TIEMPOS:
+-------------------
+ALPHA_RPM       : 0.5    (Filtro complementario para lectura de velocidad)
+ALPHA_DERIV     : 0.8    (Filtro para el término derivativo)
+LOOP_PERIOD_US  : 20000  (Ciclo de control: 20ms / 50Hz)
+TELEMETRY_MS    : 150    (Frecuencia de envío de datos: 150ms)
+WATCH_IDLE_MS   : 2000   (Tiempo de seguridad antes de detener motores)
+
+CONFIGURACIÓN DE MOTORES (PWM):
+-------------------------------
+PWM_FREQ        : 5000   (Frecuencia de la señal PWM en Hz)
+PWM_RESOLUTION  : 8      (Resolución de bits: 0-255)
